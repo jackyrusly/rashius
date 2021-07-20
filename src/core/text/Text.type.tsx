@@ -9,7 +9,13 @@ export type TextColor =
   | 'info';
 
 interface IText {
+  /**
+   * Text size, The default value is md
+   */
   size?: TextSize;
+  /**
+   * Text color, The default value is primary
+   */
   color?: TextColor;
 }
 

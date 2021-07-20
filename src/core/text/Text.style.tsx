@@ -7,7 +7,7 @@ const chooseTextColor = (textColor: TextColor) => {
     case 'primary':
       return tw`text-gray-800`;
     case 'secondary':
-      return tw`text-indigo-600`;
+      return tw`text-indigo-300`;
     case 'success':
       return tw`text-green-400`;
     case 'danger':
