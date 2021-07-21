@@ -34,9 +34,9 @@ const chooseFontSize = (fontSize: TextSize) => {
   }
 };
 
-const StyledText = styled.div<IText>(({ size, color }) => [
-  chooseTextColor(color!),
-  chooseFontSize(size!),
+const StyledText = styled.div<IText>(({ $size, $color }) => [
+  chooseTextColor($color!),
+  chooseFontSize($size!),
 ]);
 
 export default memo(StyledText);

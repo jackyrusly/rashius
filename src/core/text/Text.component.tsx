@@ -4,11 +4,11 @@ import StyledText from './Text.style';
 
 export const Text: FC<IText> = ({
   children,
-  color = 'primary',
-  size = 'md',
+  $color = 'primary',
+  $size = 'md',
 }) => {
   return (
-    <StyledText color={color} size={size}>
+    <StyledText $color={$color} $size={$size}>
       {children}
     </StyledText>
   );

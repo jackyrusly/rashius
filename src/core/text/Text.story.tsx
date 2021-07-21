@@ -4,10 +4,12 @@ import Text from './index';
 export default {
   title: 'Core/Text',
   component: Text,
+  args: {
+    children: 'Rashius Design System',
+  },
   argTypes: {
     children: {
       control: { type: 'text' },
-      defaultValue: 'Rashius Design System',
       description: 'Text value',
     },
   },
@@ -20,17 +22,17 @@ export const Primary = Template.bind({});
 export const Secondary = Template.bind({});
 
 Secondary.args = {
-  color: 'secondary',
+  $color: 'secondary',
 };
 
 export const Small = Template.bind({});
 
 Small.args = {
-  size: 'sm',
+  $size: 'sm',
 };
 
 export const Large = Template.bind({});
 
 Large.args = {
-  size: 'lg',
+  $size: 'lg',
 };
