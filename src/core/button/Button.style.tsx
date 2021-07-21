@@ -13,7 +13,7 @@ const buttonHoverBackgroundColor = {
 
 const StyledButton = styled.button<IButton>(({ $isLoading, $type }) => [
   buttonBackgroundColor[$type!],
-  buttonHoverBackgroundColor[$type!],
+  !$isLoading && buttonHoverBackgroundColor[$type!],
   $isLoading && tw`opacity-75 cursor-not-allowed`,
   tw`transition-colors duration-500 py-2 px-4 shadow-md rounded-full inline text-white focus:outline-none`,
 ]);
