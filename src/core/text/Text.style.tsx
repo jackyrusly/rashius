@@ -1,4 +1,3 @@
-import { memo } from 'react';
 import tw, { styled } from 'twin.macro';
 import IText, { TextColor, TextSize } from './Text.type';
 
@@ -39,4 +38,4 @@ const StyledText = styled.div<IText>(({ $size, $color }) => [
   chooseFontSize($size!),
 ]);
 
-export default memo(StyledText);
+export default StyledText;

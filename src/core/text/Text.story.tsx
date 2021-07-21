@@ -5,7 +5,9 @@ export default {
   title: 'Core/Text',
   component: Text,
   args: {
-    children: 'Rashius Design System',
+    children: 'Text Example',
+    $color: 'primary',
+    $size: 'md',
   },
   argTypes: {
     children: {
