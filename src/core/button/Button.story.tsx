@@ -9,6 +9,12 @@ export default {
     $isLoading: false,
     $type: 'primary',
   },
+  argTypes: {
+    children: {
+      control: { type: 'text' },
+      description: 'Button text',
+    },
+  },
 } as ComponentMeta<typeof Button>;
 
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
