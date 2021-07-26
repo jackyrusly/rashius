@@ -12,4 +12,9 @@ export const Button: FC<IButton> = memo(
   },
 );
 
+Button.defaultProps = {
+  $isLoading: false,
+  $type: 'primary',
+};
+
 export default Button;
