@@ -12,4 +12,9 @@ export const Text: FC<IText> = memo(
   },
 );
 
+Text.defaultProps = {
+  $color: 'primary',
+  $size: 'md',
+};
+
 export default Text;
