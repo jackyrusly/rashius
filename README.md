@@ -8,7 +8,7 @@ Design System by Jacky Rusly
 
 ## Author
 
-[Jacky Rusly](https://www.jackyrusly.web.id)
+[Jacky Rusly](https://www.jackyrusly.com)
 
 ## License
 
