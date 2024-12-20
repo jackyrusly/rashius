@@ -2,10 +2,6 @@
 
 Design System by Jacky Rusly
 
-## Demo
-
-[Rashius Design System](https://rashius.vercel.app/)
-
 ## Author
 
 [Jacky Rusly](https://www.jackyrusly.com)
